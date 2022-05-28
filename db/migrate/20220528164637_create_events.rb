@@ -4,6 +4,7 @@ class CreateEvents < ActiveRecord::Migration[7.0]
       t.string :event_type
       t.date :event_date
       t.string :title
+      t.string :speaker
       t.string :host
       t.boolean :published
 
